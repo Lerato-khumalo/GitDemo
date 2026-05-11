@@ -21,6 +21,7 @@ public class DELETE {
         System.out.println("Status Code: " + response.getStatusCode());
         System.out.println("Commited");
         System.out.println("removed");
+        System.out.println("just basic tests");
 
         // Response body is usually empty for DELETE
         System.out.println("Response Body: " + response.getBody().asString());
